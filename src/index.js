@@ -34,8 +34,6 @@ module.exports = function check(str, bracketsConfig) {
       }
     }
   }
-
-  console.log(str);
-  console.log(stack);
+  
   return stack.length === 0;
 }
